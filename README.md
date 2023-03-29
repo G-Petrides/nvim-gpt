@@ -19,7 +19,10 @@ Using [Lazy](https://github.com/folke/lazy.nvim):
 ```lua
 {
   "G-Petrides/nvim-gpt",
-  dependencies={"nvim-lua/plenary.nvim"}
+  dependencies={"nvim-lua/plenary.nvim"},
+  config = function()
+    require('gpt').setup("API Key Goes Here")
+  end
 }
 ```
   

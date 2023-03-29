@@ -21,7 +21,7 @@ Using [Lazy](https://github.com/folke/lazy.nvim):
   "G-Petrides/nvim-gpt",
   dependencies={"nvim-lua/plenary.nvim"},
   config = function()
-    require('gpt').setup("API Key Goes Here")
+    require('nvim-gpt').setup("API Key Goes Here")
   end
 }
 ```
@@ -31,7 +31,7 @@ Using [Lazy](https://github.com/folke/lazy.nvim):
 1) Register OpenAI account and get API key here: [API Key](https://platform.openai.com/account/api-keys)
 2) Setup in init.lua
 ```lua
-  require("G-Petrides/nvim-gp").setup("API Key Goes Here")
+  require("G-Petrides/nvim-gpt").setup("API Key Goes Here")
 ```
 
 ### Use
